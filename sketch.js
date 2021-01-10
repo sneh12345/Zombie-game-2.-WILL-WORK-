@@ -9,6 +9,19 @@ var zombieExpiriment
 
 var score = 0;
 
+function preload(){
+  nightIMG = loadImage("Pictures/Night time warzone.jpg")
+  survivalistIMG = loadImage('Pictures/Survivalist.png');
+  zombieIMG = loadImage('Pictures/TransparentZombie.png');
+  bulletIMG = loadImage('Pictures/bulletTransparent.png')
+  morningIMG = loadImage('Pictures/warzone(1).jpg')
+  
+  
+  }
+
+
+
+
 function setup() {     
   var canvas = createCanvas(1450, 735);
   edges = createEdgeSprites();
@@ -31,16 +44,8 @@ function setup() {
     survivalist.destroy();
   }
   
-   }
-function preload(){
-nightIMG = loadImage("Pictures/Night time warzone.jpg")
-survivalistIMG = loadImage('Pictures/Survivalist.png');
-zombieIMG = loadImage('Pictures/TransparentZombie.png');
-bulletIMG = loadImage('Pictures/bulletTransparent.png')
-morningIMG = loadImage('Pictures/warzone(1).jpg')
-
-
 }
+
 
 function draw() {
  background(nightIMG);
