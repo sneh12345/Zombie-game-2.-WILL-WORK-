@@ -40,9 +40,7 @@ function setup() {
   bulletIMG.resize(50, 0)
   bullet.velocityY = 5
   
-  if(zombieExpiriment.isTouching(survivalist)){
-    survivalist.destroy();
-  }
+ 
   
 }
 
