@@ -33,11 +33,11 @@ function setup() {
   
    }
 function preload(){
-nightIMG = loadImage("../Pictures/Night time warzone.jpg")
-survivalistIMG = loadImage('../Pictures/Survivalist.png');
-zombieIMG = loadImage('../Pictures/TransparentZombie.png');
-bulletIMG = loadImage('../Pictures/bulletTransparent.png')
-morningIMG = loadImage('../Pictures/warzone(1).jpg')
+nightIMG = loadImage("/Pictures/Night time warzone.jpg")
+survivalistIMG = loadImage('/Pictures/Survivalist.png');
+zombieIMG = loadImage('/Pictures/TransparentZombie.png');
+bulletIMG = loadImage('/Pictures/bulletTransparent.png')
+morningIMG = loadImage('/Pictures/warzone(1).jpg')
 
 
 }
